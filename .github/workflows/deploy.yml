@@ -16,7 +16,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install deps
+      - name: Install depss
         run: pip install -r app/requirements.txt pytest
 
       - name: Run tests
